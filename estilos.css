@@ -1,0 +1,71 @@
+/* Estilos globais */
+body {
+    background-color: rgb(133, 133, 133);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* Estilos do conteúdo */
+section {
+    margin: 20px;
+}
+
+article {
+    border: 1px solid #707070;
+    padding: 20px;
+    overflow: hidden;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.informacoes {
+    float: left;
+    text-align: left;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+/* Estilos do formulário */
+select,
+button {
+    font-size: 40px;
+    background-color: transparent;
+    border: 2px solid rgb(212, 167, 255);
+    margin-left: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+    color: #707070;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lojas de Purificadores do HUGAO</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+
+<body>
+  <header>
+    <h1>Lojas de Purificadores do Vinicius</h1>
+  </header>
+  <main>
+    <form action="lojas.php" method="post">
+      <section>
+        <article>
+          <img src="img/produto_principal.png"
+            alt="Máquina de Bebidas Brastemp B.blend com purificador - Vermelho - 110V">
+          <h2>Máquina de Bebidas Brastemp B.blend com purificador - Vermelho - 110V</h2>
+          <div class="informacoes">
+            <h3>R$ 2429,00</h3>
+            <label for="parcelas">Quantidade de parcelas</label>
+            <select id="parcelas" name="parcelas">
+              <?php
+              for ($i = 1; $i <= 12; $i++) {
+                echo "<option value='$i'>$i</option>";
+              }
+              ?>
+            </select>
+            <button type="submit">Comprar</button>
+          </div>
+        </article>
+      </section>
+    </form>
+  </main>
+</body>
+
+</html>
